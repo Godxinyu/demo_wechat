@@ -1,0 +1,3 @@
+<view>
+  <text>欢迎{{detail.username}}</text>
+</view>

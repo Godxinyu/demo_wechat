@@ -1,0 +1,14 @@
+<!--style的优先级比class高会覆盖和class相同属性-->
+<view class="inputView" style="margin-top: 40% ">
+<input class="input" type="number" placeholder="请输入账号(手机号)" placeholder-style="color: red" bindblur='listenerPhoneInput' />
+</view>
+
+<view class="inputView">
+<input class="input" password="true" placeholder="请输入密码" placeholder-style="color: red" bindinput="listenerPasswordInput"/>
+</view>
+
+<view>
+<button class="buttonView" type="primary" bindtap="listenerLogin">登录</button>
+</view>
+
+<!-- style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 40rpx"  -->
